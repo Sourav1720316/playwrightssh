@@ -1,0 +1,17 @@
+[
+    {
+        "username": "Admin",
+        "password": "admin123",
+        "menuitem": "Leave"
+    },
+    {
+        "username": "Admin",
+        "password": "admin123",
+        "menuitem": "Admin"
+    },
+    {
+        "username": "Admin",
+        "password": "admin123",
+        "menuitem": "Performance"
+    }
+]
