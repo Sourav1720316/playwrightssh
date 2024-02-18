@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test")
 
-
+//This test is for date picking
 test("Date picker automation", async ({ page }) => {
 
 
