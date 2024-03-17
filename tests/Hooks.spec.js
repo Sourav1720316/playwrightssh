@@ -42,7 +42,6 @@ test("Menu options", async({}) =>{
 
 test("Home page icon", async({page}) =>{
 
-
     const homeIcon= await page.locator("//li[@class='--active oxd-userdropdown']").isVisible()
 
     // await expect(homeIcon).toBeTruthy()

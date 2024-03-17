@@ -3,6 +3,7 @@ import { Base } from "../Pages_Magneto/Base"
 import { LandingPage } from "../Pages_Magneto/LandingPage"
 import { Login } from "../Pages_Magneto/Login"
 import { Home } from "../Pages_Magneto/Home"
+import { Jackets } from "../Pages_Magneto/jackets"
 
 const data = JSON.parse(JSON.stringify(require("../testdataMagneto.json")))
 
@@ -31,6 +32,10 @@ test.describe("Magneto Application Login", () => {
         const home = new Home(page)
         await home.pageTitle()
         await home.selectOption(data.mainitem, data.subitem, data.product)
+
+        const jackets = new Jackets(page)
+        await jackets.fetchAllProductPrice()
+
 
     })
 

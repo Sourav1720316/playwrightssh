@@ -44,15 +44,8 @@ test("Drag and drop practice", async({page}) => {
 
     await page.goto("https://www.globalsqa.com/demo-site/draganddrop/")
 
-    const pic=await page.locator("//h5[text()='High Tatras 2']/..")
-
-    const trash= await page.locator("//span[text()='Trash']")
-
-    await page.hover("//h5[text()='High Tatras 2']/..")
-
+    const frame=await page.frameLocator("//iframe[@class='demo-frame lazyloaded']")
+    const pic= await frame.locator("//h5[text()='High Tatras']")
+    const trash= await frame.locator("//div[@id='trash']")
     await pic.dragTo(trash)
-
-    await page.waitForTimeout(50000)
-
-
 })

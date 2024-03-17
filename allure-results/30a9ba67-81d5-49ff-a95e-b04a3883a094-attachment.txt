@@ -1,0 +1,25 @@
+OrangeHRM
+12
+locator('//span[contains(@class,\'menu-item\')]').nth(1)
+PIM
+locator('//span[contains(@class,\'menu-item\')]').nth(2)
+Leave
+locator('//span[contains(@class,\'menu-item\')]').nth(3)
+Time
+locator('//span[contains(@class,\'menu-item\')]').nth(4)
+Recruitment
+locator('//span[contains(@class,\'menu-item\')]').nth(5)
+My Info
+locator('//span[contains(@class,\'menu-item\')]').nth(6)
+Performance
+locator('//span[contains(@class,\'menu-item\')]').nth(7)
+Dashboard
+locator('//span[contains(@class,\'menu-item\')]').nth(8)
+Directory
+locator('//span[contains(@class,\'menu-item\')]').nth(9)
+Maintenance
+locator('//span[contains(@class,\'menu-item\')]').nth(10)
+Claim
+locator('//span[contains(@class,\'menu-item\')]').nth(11)
+Buzz
+locator('//span[contains(@class,\'menu-item\')]').nth(12)

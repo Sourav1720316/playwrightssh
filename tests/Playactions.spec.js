@@ -69,7 +69,4 @@ test("Practice actions", async ({page}) =>{
 
         await page.waitForTimeout(5000)
 
-
-
-
 })

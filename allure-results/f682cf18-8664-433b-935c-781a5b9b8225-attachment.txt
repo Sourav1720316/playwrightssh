@@ -1,0 +1,27 @@
+OrangeHRM
+[
+  locator('//span[contains(@class,\'menu-item\')]').first(),
+  locator('//span[contains(@class,\'menu-item\')]').nth(1),
+  locator('//span[contains(@class,\'menu-item\')]').nth(2),
+  locator('//span[contains(@class,\'menu-item\')]').nth(3),
+  locator('//span[contains(@class,\'menu-item\')]').nth(4),
+  locator('//span[contains(@class,\'menu-item\')]').nth(5),
+  locator('//span[contains(@class,\'menu-item\')]').nth(6),
+  locator('//span[contains(@class,\'menu-item\')]').nth(7),
+  locator('//span[contains(@class,\'menu-item\')]').nth(8),
+  locator('//span[contains(@class,\'menu-item\')]').nth(9),
+  locator('//span[contains(@class,\'menu-item\')]').nth(10),
+  locator('//span[contains(@class,\'menu-item\')]').nth(11)
+]
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11

@@ -1,0 +1,14 @@
+[
+  locator('//select[@id=\'month\']/option').first(),
+  locator('//select[@id=\'month\']/option').nth(1),
+  locator('//select[@id=\'month\']/option').nth(2),
+  locator('//select[@id=\'month\']/option').nth(3),
+  locator('//select[@id=\'month\']/option').nth(4),
+  locator('//select[@id=\'month\']/option').nth(5),
+  locator('//select[@id=\'month\']/option').nth(6),
+  locator('//select[@id=\'month\']/option').nth(7),
+  locator('//select[@id=\'month\']/option').nth(8),
+  locator('//select[@id=\'month\']/option').nth(9),
+  locator('//select[@id=\'month\']/option').nth(10),
+  locator('//select[@id=\'month\']/option').nth(11)
+]

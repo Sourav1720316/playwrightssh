@@ -1,0 +1,2 @@
+OrangeHRM
+locator('//span[contains(@class,\'menu-item\')]')
